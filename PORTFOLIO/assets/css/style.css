@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: #fff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to bottom, #09203f 0%, #2c5270 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+#expertise,
+#experiencia{
+    height: 85vh;
+}
+
+#menu-principal {
+    background: rgba(145, 177, 235, 0);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+#menu-principal span:first-child {
+    margin-right: auto;
+}
+
+#menu-principal span:first-child a {
+    font-size: 1.8rem;
+}
+
+.contato {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+#menu-principal span {
+    padding: 0.8rem;
+}
+
+.central {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.central h1,
+.central h2 {
+    position: relative;
+    z-index: 2;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-shadow: 1px 3px 11px rgba(0, 0, 0, 0.3);
+}
+
+.central h1 {
+    font-size: 10rem; 
+}
+
+.central h2 {
+    font-size: 2rem; 
+}
+
+.back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: auto;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.formacao,
+.jobs-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    text-shadow: 1px 3px 11px rgba(0, 0, 0, 0.3);
+}
+
+.formacao h3,
+.jobs-area h3{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline blueviolet 1rem;
+}
+
+.flex-items,
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto; 
+    flex-wrap: wrap; 
+}
+
+.block-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; 
+    margin: 2rem;
+    width: 30%;
+    height: 40rem;
+    opacity: 0.3;
+    border: solid 3px white;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px rgba(0, 0, 0, 0.3);
+    transition: 0.3s; 
+}
+
+.block-one:hover {
+    opacity: 1;
+}
+
+.block-one h3 {
+    font-size: 2rem; 
+    text-transform: uppercase;
+    margin: 1rem;
+    text-decoration: underline blueviolet 0.3rem;
+}
+
+.block-one img {
+    width: 10rem;
+    opacity: 0.8;
+    filter: invert(1);
+}
+
+.block-one p {
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.texto {
+    margin: auto;
+    font-size: 2rem;
+    color: #fff;
+    width: 45%;
+    height: 39rem; 
+    border: solid white 2px;
+    padding: 2rem; 
+    text-align: justify;
+    border: 4px solid white;
+    border-radius: 12px;
+}
+
+.texto h3 {
+    font-size: 3rem; 
+}
+
+.box-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 40rem; 
+    padding: 2rem;
+    margin: 2rem;
+    border: 4px solid transparent;
+    border-radius:15px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.box-link:hover {
+    transform: scale(1.05);
+    color: #000;
+}
+
+
+
+.flex-foot{
+    background-color: #09203f;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+     text-shadow: 1px 3px 11px rgba(0, 0, 0, 0.3);
+   
+}
+
+.flex-foot h3{
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline blueviolet 1rem;
+    
+}
+
+.flex-foot img{
+    width: 4rem;
+    
+}
+
+
+.socials-box a{
+    width: 100vw;
+    padding: 5rem;
+    margin: 3rem;
+    
+}
+
+.email-box{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.8rem;
+}
